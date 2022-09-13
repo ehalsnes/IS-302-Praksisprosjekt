@@ -17,7 +17,6 @@ main {
     margin: 0 auto;
     padding: 30px 20px;
     min-height: calc(100vh - 211px - 58px);
-    text-align: justify;
 }
 a {
     color: #007bff;
@@ -39,4 +38,8 @@ footer {
     cursor: pointer;
     border-radius: 50%;
     box-shadow: rgb(0, 0, 0) 10px 10px 30px
+}
+.overskrift img{
+    float: left;
+    margin-left: 0px 0px 0px 20px;
 }
