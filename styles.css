@@ -17,6 +17,7 @@ main {
     margin: 0 auto;
     padding: 30px 20px;
     min-height: calc(100vh - 211px - 58px);
+    text-align: center;
 }
 a {
     color: #007bff;
@@ -37,9 +38,60 @@ footer {
 .footer-design img{
     cursor: pointer;
     border-radius: 50%;
-    box-shadow: rgb(0, 0, 0) 10px 10px 30px
+    box-shadow: rgb(0, 0) 10px 10px
 }
-.overskrift img{
-    float: left;
-    margin-left: 0px 0px 0px 20px;
+.logo img {
+    margin-left: 0px 0px 0px 0px;
+}
+.contact-info ul {
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 85%;
+    top: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.contact-info ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.contact-info ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.contact-info ul li .fa:hover {
+    color: #ffffff;
+}
+.contact-info ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.contact-info ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.contact-info ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.contact-info ul li:nth-child(2) a:hover {
+    background-color: #30363d;
+}
+.contact-info ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.contact-info ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.contact-info ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
 }
