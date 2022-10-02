@@ -1,0 +1,107 @@
+body {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 11.5px;
+    font-weight: 400;
+    text-align: left;
+    background-color: #f1f1f1;
+    padding-bottom: 230px;
+}
+p {
+    font-size: medium;
+    justify-content: space-between;
+    line-height: 16px;
+    text-align: left;
+}
+h1 {
+    font-size: 30px;
+    line-height: 100%;
+}
+h2 {
+    font-size: 20px;
+}
+main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+}
+a {
+    color: #007bff;
+}
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+
+}
+footer {
+    position: fixed;
+    text-align: center;
+    background-color: #004ea8;
+    color: #fff;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+}
+.footer-design img{
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: rgb(0, 0) 10px 10px
+}
+.logo img {
+    align-items: center
+}
+.contact-info ul {
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.contact-info ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.contact-info ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.contact-info ul li .fa:hover {
+    color: #ffffff;
+}
+.contact-info ul li a {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.contact-info ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.contact-info ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.contact-info ul li:nth-child(2) a:hover {
+    background-color: #30363d;
+}
+.contact-info ul li:nth-child(3) a:hover {
+    background-color: #cd201f;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: center;
+    position: relative;
+    top: 40px;
+    left: 110px;
+}
