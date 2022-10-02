@@ -5,18 +5,26 @@ body {
     line-height: 11.5px;
     font-weight: 400;
     text-align: left;
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
+    padding-bottom: 230px;
 }
 p {
     font-size: medium;
     justify-content: space-between;
     line-height: 16px;
+    text-align: left;
+}
+h1 {
+    font-size: 30px;
+    line-height: 100%;
+}
+h2 {
+    font-size: 20px;
 }
 main {
     width: 90vw;
     margin: 0 auto;
     padding: 30px 20px;
-    min-height: calc(100vh - 211px - 58px);
     text-align: center;
 }
 a {
@@ -26,14 +34,17 @@ header {
     text-align: center;
     background-color: #333;
     color: #fff;
-    padding: 50px;
+    padding: 5px;
+
 }
 footer {
+    position: fixed;
     text-align: center;
     background-color: #004ea8;
     color: #fff;
-    padding: 20px;
-    align-items: center;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
 }
 .footer-design img{
     cursor: pointer;
@@ -41,16 +52,14 @@ footer {
     box-shadow: rgb(0, 0) 10px 10px
 }
 .logo img {
-    margin-left: 0px 0px 0px 0px;
+    align-items: center
 }
 .contact-info ul {
-    position: relative;
     transform: translate(-50%, -50%);
-    left: 85%;
-    top: 50px;
     padding: 0;
     margin: 0;
     display: flex;
+    align-items: center;
 }
 .contact-info ul li {
     list-style: none;
@@ -66,13 +75,12 @@ footer {
     color: #ffffff;
 }
 .contact-info ul li a {
-    position: relative;
     display: block;
+    margin: auto;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: white;
-    text-align: center;
     transition: 0.5s;
     transform: translate(0,0px);
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
@@ -87,11 +95,13 @@ footer {
     background-color: #30363d;
 }
 .contact-info ul li:nth-child(3) a:hover {
-    background-color: #e4405f;
-}
-.contact-info ul li:nth-child(4) a:hover {
     background-color: #cd201f;
 }
-.contact-info ul li:nth-child(5) a:hover {
-    background-color: #0077B5;
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: center;
+    position: relative;
+    top: 40px;
+    left: 110px;
 }
