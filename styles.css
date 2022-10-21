@@ -53,9 +53,20 @@ footer {
     box-shadow: rgb(0, 0) 10px 10px;
     align-content: center;
 }
-.logo img {
+
+    .img-arbeidsplass img{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        
+    }
     
-}
+    .img-praksisplass img{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        
+    }  
 
 ul {
     list-style-type: none;
