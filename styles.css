@@ -16,7 +16,8 @@ p {
 }
 h1 {
     font-size: 30px;
-    line-height: 100%;
+    line-height: 150%;
+    text-align: center;
 }
 h2 {
     font-size: 20px;
@@ -25,7 +26,7 @@ main {
     width: 90vw;
     margin: 0 auto;
     padding: 30px 20px;
-    text-align: center;
+    text-align: left;
 }
 a {
     color: #007bff;
@@ -53,8 +54,15 @@ footer {
     align-content: center;
 }
 .logo img {
-    align-items: center
+    
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
 .contact-info ul {
     transform: translate(-50%, -50%);
     padding: 0;
